@@ -172,6 +172,15 @@ li {
 }
 
 /*END BLOG RULES */
+
+/*ABOUT PAGE RULES*/
+
+.about {
+    width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 20px;
+}
     
 
 /* NAVIGATION RULES */
@@ -243,6 +252,9 @@ footer a:hover, footer a:active {
     color:#ffa500;
     
 }
+
+
+
 
 
 /*MEDIA QUERIES*/
