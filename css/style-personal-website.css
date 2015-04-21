@@ -162,6 +162,7 @@ li {
 
 /*END RESUME RULES */
 
+
 /*BLOG RULES */
 
 .blog {
@@ -172,6 +173,7 @@ li {
 }
 
 /*END BLOG RULES */
+
 
 /*ABOUT PAGE RULES*/
 
@@ -185,6 +187,42 @@ li {
 iframe {
     float: right;
 }
+/*END ABOUT PAGE RULES*/
+
+
+
+/*PORTFOLIO PAGE RULES*/
+
+
+.portfolio {
+    width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+.portfolio p {
+    width:70%;
+}
+
+.portfolio-image {
+    border: solid #004f1c 2px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#creative-one {
+    margin-left: 35px;
+}
+
+#academic-two {
+    clear: left;
+    margin-left: 35px;
+}
+/*ENG PORTFOLIO PAGE RULES*/
+    
+
 
 /* NAVIGATION RULES */
 
@@ -397,6 +435,11 @@ footer a:hover, footer a:active {
         float: none;
         padding: 1% 0 1% 0;
     }
+    
+    #creative-one, #creative-two, #academic-one, #academic-two, #blog-one, #blog-two {
+        clear:both;
+        margin-left:0;
+    }
 }
 
 /*Mobile Styles*/
@@ -466,6 +509,11 @@ footer a:hover, footer a:active {
     
      #reading-with-dragons {
         display: none;
+    }
+    
+   #creative-one, #creative-two, #academic-one, #academic-two, #blog-one, #blog-two {
+        clear:both;
+        margin-left:0;
     }
     
 }
