@@ -212,14 +212,6 @@ li {
 /*PORTFOLIO PAGE RULES*/
 
 
-.portfolio {
-    width: 95%;
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 20px;
-}
-
-
 .portfolio-image {
     border: solid #004f1c 2px;
     float: left;
@@ -235,6 +227,7 @@ li {
     clear: left;
     margin-left: 35px;
 }
+
 /*ENG PORTFOLIO PAGE RULES*/
     
 
